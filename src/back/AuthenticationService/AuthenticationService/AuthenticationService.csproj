@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>38c15850-517e-41d1-b7ff-ba01a26cf317</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AuthenticationApplication\AuthenticationApplication.csproj" />
+    <ProjectReference Include="..\AuthenticationDomain\AuthenticationDomain.csproj" />
+    <ProjectReference Include="..\AuthenticationInfrastructure\AuthenticationInfrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
