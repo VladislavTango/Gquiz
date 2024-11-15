@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AubcFg7kmSguH8avskC507UPB6BU9I+nrLZEkvM6pMFwdEVxLzS6jm16dkDq/71LqK7KqUt4W/thI7gRHMqYiw==",
+  "success": true,
+  "projectFilePath": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\EmailApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zalar\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\zalar\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\zalar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

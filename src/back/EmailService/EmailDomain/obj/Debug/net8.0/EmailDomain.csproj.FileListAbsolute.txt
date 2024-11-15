@@ -1,0 +1,12 @@
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\bin\Debug\net8.0\EmailDomain.deps.json
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\bin\Debug\net8.0\EmailDomain.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\bin\Debug\net8.0\EmailDomain.pdb
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.AssemblyInfoInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.AssemblyInfo.cs
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.csproj.CoreCompileInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.sourcelink.json
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\refint\EmailDomain.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\EmailDomain.pdb
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailDomain\obj\Debug\net8.0\ref\EmailDomain.dll

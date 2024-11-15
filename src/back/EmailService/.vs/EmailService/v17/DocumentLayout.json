@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emaildomain\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|solutionrelative:emaildomain\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailinfrastructure\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|solutionrelative:emailinfrastructure\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emaildomain\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|solutionrelative:emaildomain\\models\\errormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailinfrastructure\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|solutionrelative:emailinfrastructure\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\emailservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\emailservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailapplication\\emailapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|solutionrelative:emailapplication\\emailapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "EmailService\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "EmailService\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:11:49.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\ExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "EmailService\\ExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\ExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "EmailService\\ExceptionHandlerMiddleware.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwB4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:11:41.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "EmailInfrastructure\\Services\\EmailSenderService.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "EmailInfrastructure\\Services\\EmailSenderService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:10:08.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailModel.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\EmailModel.cs",
+              "RelativeDocumentMoniker": "EmailDomain\\Models\\EmailModel.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\EmailModel.cs",
+              "RelativeToolTip": "EmailDomain\\Models\\EmailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:24:39.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorModel.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\ErrorModel.cs",
+              "RelativeDocumentMoniker": "EmailDomain\\Models\\ErrorModel.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\ErrorModel.cs",
+              "RelativeToolTip": "EmailDomain\\Models\\ErrorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:10:51.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
+              "RelativeDocumentMoniker": "EmailService\\Program.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
+              "RelativeToolTip": "EmailService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:12:09.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Interface\\IEmailService.cs",
+              "RelativeDocumentMoniker": "EmailInfrastructure\\Interface\\IEmailService.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Interface\\IEmailService.cs",
+              "RelativeToolTip": "EmailInfrastructure\\Interface\\IEmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T07:04:37.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmailService.csproj",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\EmailService.csproj",
+              "RelativeDocumentMoniker": "EmailService\\EmailService.csproj",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\EmailService.csproj",
+              "RelativeToolTip": "EmailService\\EmailService.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T06:22:42.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailApplication.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\EmailApplication.cs",
+              "RelativeDocumentMoniker": "EmailApplication\\EmailApplication.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\EmailApplication.cs",
+              "RelativeToolTip": "EmailApplication\\EmailApplication.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:19:22.328Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

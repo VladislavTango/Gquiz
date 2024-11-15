@@ -1,0 +1,13 @@
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\bin\Debug\net8.0\EmailInfrastructure.deps.json
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\bin\Debug\net8.0\EmailInfrastructure.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\bin\Debug\net8.0\EmailInfrastructure.pdb
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.csproj.AssemblyReference.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.AssemblyInfoInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.AssemblyInfo.cs
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.csproj.CoreCompileInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.sourcelink.json
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\refint\EmailInfrastructure.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\EmailInfrastructure.pdb
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailInfrastructure\obj\Debug\net8.0\ref\EmailInfrastructure.dll

@@ -1,0 +1,8 @@
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.csproj.AssemblyReference.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.AssemblyInfoInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.AssemblyInfo.cs
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.csproj.CoreCompileInputs.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.MvcApplicationPartsAssemblyInfo.cache
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailMicroService.sourcelink.json
