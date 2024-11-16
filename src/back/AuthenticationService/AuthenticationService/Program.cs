@@ -2,7 +2,6 @@ using AuthenticationApplication;
 using AuthenticationInfrastructure.AppContext;
 using AuthenticationInfrastructure.Interface;
 using AuthenticationInfrastructure.Repository;
-using AuthenticationInfrastructure.Services;
 using AuthenticationInfrastructure.Services.JWT;
 using AuthenticationService;
 
@@ -14,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICreaterRepository, CreaterRepository>();
+builder.Services.AddScoped<IMailRepository, MailRepository>();
+
 builder.Services.AddScoped<IJwtTokentService, JwtTokenService>();
 
 builder.Services.AddMediatRServices();
