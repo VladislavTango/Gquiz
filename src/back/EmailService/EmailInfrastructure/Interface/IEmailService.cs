@@ -2,7 +2,6 @@
 {
     public interface IEmailService
     {
-        Task SendConfirmCode();
-        Task GenerateMail();
+        bool SendConfirmCode(string mail , int code);
     }
 }

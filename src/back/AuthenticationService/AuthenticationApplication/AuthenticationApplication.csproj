@@ -16,8 +16,4 @@
     <ProjectReference Include="..\AuthenticationInfrastructure\AuthenticationInfrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="User\Responces\" />
-  </ItemGroup>
-
 </Project>

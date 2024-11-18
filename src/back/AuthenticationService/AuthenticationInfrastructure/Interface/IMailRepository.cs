@@ -8,7 +8,7 @@ namespace AuthenticationInfrastructure.Interface
 {
     public interface IMailRepository
     {
-        public Task AddMailCode(string Email,int Code);
+        public Task<int> AddMailCode(string Email);
         public Task<bool> DeleteMailCode(string Email);
         public Task<int> SearchMailCode(string Email);
     }

@@ -18,8 +18,13 @@ namespace AuthenticationInfrastructure.Repository
             redis = ConnectionMultiplexer.Connect("127.0.0.1:6379");
             db = redis.GetDatabase();
         }
-        public async Task AddMailCode(string Email , int Code)
+        public async Task<int> AddMailCode(string Email)
         {
+            if(await SearchMailCode(Email) != 0)
+                await DeleteMailCode(Email);
+
+            int Code = new Random().Next(100000, 999999);
+
             string key = $"{HashKey}:{Email}";
 
             var heshEntries = new HashEntry[] 
@@ -30,6 +35,8 @@ namespace AuthenticationInfrastructure.Repository
 
             await db.StringSetAsync(key, Code);
             await db.KeyExpireAsync(key, TimeSpan.FromHours(2));
+
+            return Code;
         }
 
         public async Task<bool> DeleteMailCode(string Email)

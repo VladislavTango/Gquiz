@@ -1,5 +1,6 @@
 ﻿using AuthenticationApplication.Creater.Requests;
 using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Repository;
 using AuthenticationInfrastructure.Services;
 using MediatR;
 using System;
@@ -13,11 +14,11 @@ namespace AuthenticationApplication.Creater.Handlers
     public class CreaterLoginHandler : IRequestHandler<CreaterLoginRequest, string>
     {
         private readonly ICreaterRepository _repository;
-        private readonly IJwtTokentService _jwtTokentService;
-        public CreaterLoginHandler(ICreaterRepository createrRepository , IJwtTokentService jwtTokentService) 
+        private readonly IMailRepository _mailRepository;
+        public CreaterLoginHandler(ICreaterRepository createrRepository , IMailRepository mailRepository) 
         {
             _repository = createrRepository;
-            _jwtTokentService = jwtTokentService;
+            _mailRepository = mailRepository;
         }
 
         public async Task<string> Handle(CreaterLoginRequest request, CancellationToken cancellationToken)
@@ -29,7 +30,12 @@ namespace AuthenticationApplication.Creater.Handlers
             if (!PasswordHasher.VerifyPassword(request.Password, creator.Password))
                 throw new Exception("incorrect password");
 
-            return _jwtTokentService.GenerateToken(creator.Id, creator.Name, "Creater");
+            int Code = await _mailRepository.AddMailCode(request.Email);
+
+            if (! await HttpService.SendEmailCode(request.Email, Code))
+                throw new Exception("Error with MailService");
+
+            return "всё ок";
         }
     }
 }

@@ -3,7 +3,7 @@ using AuthenticationInfrastructure.AppContext;
 using AuthenticationInfrastructure.Interface;
 using AuthenticationInfrastructure.Repository;
 using AuthenticationInfrastructure.Services.JWT;
-using AuthenticationService;
+using AuthenticationService.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
