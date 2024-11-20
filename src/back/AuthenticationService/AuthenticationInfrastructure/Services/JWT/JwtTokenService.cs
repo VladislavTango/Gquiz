@@ -1,4 +1,4 @@
-﻿using AuthenticationInfrastructure.Interface;
+﻿using AuthenticationInfrastructure.Interface.Service;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;

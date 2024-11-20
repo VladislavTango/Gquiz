@@ -1,7 +1,9 @@
 using AuthenticationApplication;
 using AuthenticationInfrastructure.AppContext;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Repository;
+using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Repository;
+using AuthenticationInfrastructure.Services;
 using AuthenticationInfrastructure.Services.JWT;
 using AuthenticationService.Middlewares;
 
@@ -11,11 +13,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHttpClient();
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICreaterRepository, CreaterRepository>();
 builder.Services.AddScoped<IMailRepository, MailRepository>();
 
-builder.Services.AddScoped<IJwtTokentService, JwtTokenService>();
+builder.Services.AddSingleton<IJwtTokentService, JwtTokenService>();
+
+builder.Services.AddTransient<IHttpService , HttpService>();
+
 
 builder.Services.AddMediatRServices();
 builder.Services.AddAppContext();

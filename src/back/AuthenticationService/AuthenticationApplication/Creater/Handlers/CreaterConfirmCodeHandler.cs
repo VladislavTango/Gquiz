@@ -1,6 +1,7 @@
 ﻿using AuthenticationApplication.Creater.Requests;
 using AuthenticationDomain.Models;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Repository;
+using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Services;
 using MediatR;
 using Microsoft.AspNetCore.Identity.UI.Services;

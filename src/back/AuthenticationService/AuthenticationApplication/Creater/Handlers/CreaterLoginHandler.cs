@@ -1,5 +1,6 @@
 ﻿using AuthenticationApplication.Creater.Requests;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Repository;
+using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Repository;
 using AuthenticationInfrastructure.Services;
 using MediatR;
@@ -15,10 +16,12 @@ namespace AuthenticationApplication.Creater.Handlers
     {
         private readonly ICreaterRepository _repository;
         private readonly IMailRepository _mailRepository;
-        public CreaterLoginHandler(ICreaterRepository createrRepository , IMailRepository mailRepository) 
+        private readonly IHttpService _httpService;
+        public CreaterLoginHandler(ICreaterRepository createrRepository , IMailRepository mailRepository , IHttpService httpService) 
         {
             _repository = createrRepository;
             _mailRepository = mailRepository;
+            _httpService = httpService;
         }
 
         public async Task<string> Handle(CreaterLoginRequest request, CancellationToken cancellationToken)
@@ -32,7 +35,7 @@ namespace AuthenticationApplication.Creater.Handlers
 
             int Code = await _mailRepository.AddMailCode(request.Email);
 
-            if (! await HttpService.SendEmailCode(request.Email, Code))
+            if (! await _httpService.SendEmailCode(request.Email, Code))
                 throw new Exception("Error with MailService");
 
             return "всё ок";

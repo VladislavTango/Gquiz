@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZzlEYxmFtJc/Mh3uXayzXLjhLPNaEAMgI2vp5xSwmzLyWYbe0j71zju2ga7Z0ERBkzyM9Yz6BsryP9+rQjrn8w==",
+  "dgSpecHash": "uvtTjdUT13WGzsNEVykmhqzm6e6bVmGbLZqx/fkdi8crDkSdjHYANTHlF+VxEqlSv9y2TeUdD9wbcUo7R6cJXA==",
   "success": true,
   "projectFilePath": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\EmailService.csproj",
   "expectedPackageFiles": [

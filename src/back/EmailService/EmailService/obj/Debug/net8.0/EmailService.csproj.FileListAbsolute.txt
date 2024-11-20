@@ -51,3 +51,4 @@ C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\re
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailService.pdb
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailService.genruntimeconfig.cache
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\ref\EmailService.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailService.MvcApplicationPartsAssemblyInfo.cs

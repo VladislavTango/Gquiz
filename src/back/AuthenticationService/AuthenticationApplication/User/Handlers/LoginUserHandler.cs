@@ -1,7 +1,8 @@
 ﻿
 using AuthenticationApplication.User.Requestst;
 using AuthenticationDomain.Models;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Repository;
+using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Services;
 using MediatR;
 

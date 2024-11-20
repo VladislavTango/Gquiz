@@ -1,6 +1,6 @@
 ﻿using AuthenticationDomain.Models;
 using AuthenticationInfrastructure.AppContext;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuthenticationInfrastructure.Repository

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AuthenticationInfrastructure.Interface
+namespace AuthenticationInfrastructure.Interface.Repository
 {
     public interface IMailRepository
     {

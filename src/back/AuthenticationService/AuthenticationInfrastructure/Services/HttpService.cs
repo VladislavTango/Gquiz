@@ -1,32 +1,29 @@
 ﻿
+using AuthenticationInfrastructure.Interface.Service;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using System.Text;
 
 namespace AuthenticationInfrastructure.Services
 {
-    public static class HttpService
+    public class HttpService : IHttpService
     {
-        public static async Task<bool> SendEmailCode(string Email, int Code) {
+        private const string EmailSendUrl = "https://localhost:7103/api/Values";
+
+        public  async Task<bool> SendEmailCode(string Email, int Code) {
             HttpClient client = new HttpClient();
-            string url = "https://localhost:7103/api/Values";
             var requestObject = new 
             {
-                userEmail = "string",
-                code = 0
+                userEmail = Email,
+                code = Code
             
             };
             var json = JsonConvert.SerializeObject(requestObject);
+
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-            var response = await client.PostAsync(url, content);
-            var responseString = await response.Content.ReadAsStringAsync();
-            if (response.IsSuccessStatusCode) 
-            {
-                Console.WriteLine($"Успешно: {responseString}"); 
-            } 
-            else 
-            {
-                Console.WriteLine($"Ошибка: {responseString}");
-            }
+
+            await client.PostAsync(EmailSendUrl, content);
+
             return true;
         }
     }

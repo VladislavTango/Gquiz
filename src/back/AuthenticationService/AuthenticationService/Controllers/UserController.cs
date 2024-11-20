@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net.Mail;
 using System.Net;
-using AuthenticationInfrastructure.Interface;
+using AuthenticationInfrastructure.Interface.Service;
 
 namespace AuthenticationService.Controllers
 {
@@ -12,12 +12,6 @@ namespace AuthenticationService.Controllers
     [ApiController]
     public class UserController : ControllerBaseApi
     {   
-        private readonly IEmailService emailService;
-        public UserController(IEmailService emailService)
-        {
-            this.emailService = emailService;
-        }
-
         [HttpPost("RegistrationUser")]
         public async Task<IActionResult> RegistrationUser(RegistrationUserRequest request)
         {

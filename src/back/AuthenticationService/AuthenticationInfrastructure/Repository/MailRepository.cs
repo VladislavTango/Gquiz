@@ -1,4 +1,4 @@
-﻿using AuthenticationInfrastructure.Interface;
+﻿using AuthenticationInfrastructure.Interface.Repository;
 using StackExchange.Redis;
 using System.Collections.Generic;
 using static Org.BouncyCastle.Crypto.Engines.SM2Engine;

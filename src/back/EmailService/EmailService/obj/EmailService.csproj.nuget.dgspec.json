@@ -32,7 +32,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\EmailInfrastructure.csproj": {
+                "projectPath": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\EmailInfrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
