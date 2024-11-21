@@ -1,4 +1,5 @@
 ﻿using AuthenticationApplication.Creater.Requests;
+using AuthenticationDomain;
 using AuthenticationInfrastructure.Interface.Repository;
 using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Repository;
@@ -28,15 +29,15 @@ namespace AuthenticationApplication.Creater.Handlers
         {
             var creator = await _repository.GetCreaterByEmailAsync(request.Email);
             if (creator == null)
-                throw new Exception("Creater not found");
+                throw new ValidationException("Creater not found", System.Net.HttpStatusCode.BadRequest);
 
             if (!PasswordHasher.VerifyPassword(request.Password, creator.Password))
-                throw new Exception("incorrect password");
+                throw new ValidationException("incorrect password", System.Net.HttpStatusCode.BadRequest);
 
             int Code = await _mailRepository.AddMailCode(request.Email);
 
             if (! await _httpService.SendEmailCode(request.Email, Code))
-                throw new Exception("Error with MailService");
+                throw new ValidationException("Error with MailService", System.Net.HttpStatusCode.BadRequest);
 
             return "всё ок";
         }

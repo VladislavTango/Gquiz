@@ -1,4 +1,5 @@
 ﻿using AuthenticationApplication.Creater.Requests;
+using AuthenticationDomain;
 using AuthenticationDomain.Models;
 using AuthenticationInfrastructure.Interface.Repository;
 using AuthenticationInfrastructure.Interface.Service;
@@ -24,8 +25,10 @@ namespace AuthenticationApplication.Creater.Handlers
         }
         public async Task<string> Handle(CreaterConfirmCodeRequest request, CancellationToken cancellationToken)
         {
-            if (!(await _mailRepository.SearchMailCode(request.Email) == request.Code)) return "invalid code";
- 
+            if (!(await _mailRepository.SearchMailCode(request.Email) == request.Code)) 
+                throw new ValidationException("Invalid Code" , System.Net.HttpStatusCode.BadRequest);
+
+
             await _mailRepository.DeleteMailCode(request.Email);
 
             CreaterModel createrModel = await _createrRepository.GetCreaterByNameAsync(request.CreaterName);
@@ -42,7 +45,7 @@ namespace AuthenticationApplication.Creater.Handlers
                 createrModel.Id = await _createrRepository.AddCreaterAsync(createrModel);
 
                 if (createrModel.Id == Guid.Empty)
-                    throw new Exception("Creater not found");
+                    throw new ValidationException("Creater not found" , System.Net.HttpStatusCode.BadRequest);
             }
             
             return _jwtTokentService.GenerateToken(createrModel.Id, request.CreaterName , "Creater");

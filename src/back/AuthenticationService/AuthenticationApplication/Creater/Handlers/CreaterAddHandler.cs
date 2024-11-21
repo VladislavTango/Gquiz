@@ -1,4 +1,5 @@
 ﻿using AuthenticationApplication.Creater.Requests;
+using AuthenticationDomain;
 using AuthenticationInfrastructure.Interface.Repository;
 using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Services;
@@ -23,12 +24,12 @@ namespace AuthenticationApplication.Creater.Handlers
         public async Task<string> Handle(CreaterAddRequest request, CancellationToken cancellationToken)
         {
             if (!await _createrRepository.IsCreaterExist(request.Name, request.Email))
-                throw new Exception("creater already exist");
+                throw new ValidationException("creater already exist", System.Net.HttpStatusCode.BadRequest);
 
             int Code = await _mailRepository.AddMailCode(request.Email);
 
             if (!await _httpService.SendEmailCode(request.Email, Code)) 
-                throw new Exception("Error with MailService");
+                throw new ValidationException("Error with MailService", System.Net.HttpStatusCode.BadRequest);
 
 
             return "всё ок";

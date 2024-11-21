@@ -6,6 +6,7 @@ namespace EmailDomain.Models
     {
         public int StausCode { get; set; }
         public string ErrorStr { get; set; }
+        public string Path { get; set; }
 
         public override string ToString()
         {

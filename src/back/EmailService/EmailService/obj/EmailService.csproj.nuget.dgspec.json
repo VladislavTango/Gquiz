@@ -293,6 +293,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Apache.NMS.ActiveMQ": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.66.0, )"

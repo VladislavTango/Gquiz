@@ -1,4 +1,5 @@
-﻿using EmailDomain.Models;
+﻿using EmailDomain;
+using EmailDomain.Models;
 using System.Net;
 
 namespace EmailService
@@ -13,31 +14,36 @@ namespace EmailService
             _logger = logger;
         }
 
-        public async Task InvokeAsync(HttpContext httpContent)
+        public async Task InvokeAsync(HttpContext httpContext)
         {
             try
             {
-                await _next(httpContent);
+                await _next(httpContext);
+            }
+            catch (ValidationException ex)
+            {
+                await HandleExceptionAsync
+                    (httpContext, ex, ex.StatusCode, ex.Message);
             }
             catch (Exception ex)
             {
                 await HandleExceptionAsync
-                    (httpContent, ex.Message,
-                    HttpStatusCode.InternalServerError,
-                    "An unexpected error occurred.");
+                    (httpContext, ex, HttpStatusCode.InternalServerError, ex.Message);
             }
         }
 
-        private async Task HandleExceptionAsync(HttpContext httpContext, string Ex, HttpStatusCode code, string message)
+
+        private async Task HandleExceptionAsync(HttpContext httpContext, Exception exception, HttpStatusCode statusCode, string message)
         {
-            _logger.LogError(Ex);
+            _logger.LogError(message);
             HttpResponse responce = httpContext.Response;
             responce.ContentType = "application/json";
-            responce.StatusCode = (int)code;
+            responce.StatusCode = (int)statusCode;
             ErrorModel model = new()
             {
                 ErrorStr = message,
-                StausCode = (int)code
+                StausCode = (int)statusCode,
+                Path = httpContext.Request.Path
             };
 
             string result = model.ToString();

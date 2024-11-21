@@ -13,7 +13,7 @@ namespace EmailApplication.Handlers
         }
         public async Task<bool> Handle(RegistrationSendConfirmCodeRequest request, CancellationToken cancellationToken)
         {
-            _emailService.SendConfirmCode(request.UserEmail, request.Code);
+            await _emailService.SendConfirmCode(request.UserEmail, request.Code);
 
             return true;
         }
