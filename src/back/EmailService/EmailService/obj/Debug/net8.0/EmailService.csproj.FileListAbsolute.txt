@@ -52,3 +52,6 @@ C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\Em
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailService.genruntimeconfig.cache
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\ref\EmailService.dll
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\EmailService.MvcApplicationPartsAssemblyInfo.cs
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Apache.NMS.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Apache.NMS.ActiveMQ.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll

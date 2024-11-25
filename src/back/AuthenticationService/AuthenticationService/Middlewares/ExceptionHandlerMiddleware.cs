@@ -43,15 +43,16 @@ namespace AuthenticationService.Middlewares
             HttpResponse responce = httpContext.Response;
             responce.ContentType = "application/json";
             responce.StatusCode = (int)statusCode;
-            ErrorModel model = new()
-            {
-                ErrorStr = message,
-                StausCode = (int)statusCode,
-                Path = httpContext.Request.Path
-            };
 
-            string result = model.ToString();
-            await responce.WriteAsJsonAsync(result);
+            var errorResponse = new ResponseApi<object>(
+                response: new
+            {
+                StatusCode = (int)statusCode,
+                ErrorStr = message
+            },
+            result: false);
+
+            await responce.WriteAsJsonAsync(errorResponse);
         }
     }
 }

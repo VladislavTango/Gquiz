@@ -1,6 +1,4 @@
 ﻿using AuthenticationApplication.Creater.Requests;
-using AuthenticationApplication.User.Queries;
-using AuthenticationApplication.User.Requestst;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

@@ -15,6 +15,11 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddHttpClient();
 
+builder.Services.AddControllers(options => 
+{
+    options.Filters.Add<ResponseFilter>();
+});
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ICreaterRepository, CreaterRepository>();
 builder.Services.AddScoped<IMailRepository, MailRepository>();
