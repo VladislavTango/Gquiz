@@ -1,8 +1,10 @@
-﻿using AuthenticationService.Middlewares;
+﻿using CommonShared.Middlewares;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace AuthenticationService.Controllers
+namespace CommonShared
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -13,5 +15,4 @@ namespace AuthenticationService.Controllers
 
         protected IMediator Mediator => _mediator ??= HttpContext.RequestServices.GetService<IMediator>();
     }
-
 }

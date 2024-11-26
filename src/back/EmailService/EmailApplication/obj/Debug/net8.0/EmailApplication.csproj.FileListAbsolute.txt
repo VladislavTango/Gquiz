@@ -14,3 +14,5 @@ C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\obj\Debug\net8.
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\bin\Debug\net8.0\EmailInfrastructure.dll
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\bin\Debug\net8.0\EmailInfrastructure.pdb
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\obj\Debug\net8.0\EmailApp.5B2CF9EF.Up2Date
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\bin\Debug\net8.0\CommonShared.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailApplication\bin\Debug\net8.0\CommonShared.pdb

@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace EmailDomain
+namespace CommonShared.Domains
 {
     public class ValidationException : Exception
     {

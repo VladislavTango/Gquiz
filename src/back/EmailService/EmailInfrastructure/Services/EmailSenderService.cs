@@ -1,7 +1,5 @@
 ﻿using EmailInfrastructure.Interface;
-
 using MailKit.Net.Smtp;
-using MailKit;
 using MimeKit;
 
 namespace EmailInfrastructure.Services

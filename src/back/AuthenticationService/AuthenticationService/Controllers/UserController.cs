@@ -2,9 +2,7 @@
 using AuthenticationApplication.User.Requestst;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Mail;
-using System.Net;
-using AuthenticationInfrastructure.Interface.Service;
+using CommonShared;
 
 namespace AuthenticationService.Controllers
 {

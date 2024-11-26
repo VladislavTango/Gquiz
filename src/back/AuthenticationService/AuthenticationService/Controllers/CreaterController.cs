@@ -1,4 +1,5 @@
 ﻿using AuthenticationApplication.Creater.Requests;
+using CommonShared;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 

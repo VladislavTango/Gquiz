@@ -2,7 +2,6 @@
 using AuthenticationDomain;
 using AuthenticationInfrastructure.Interface.Repository;
 using AuthenticationInfrastructure.Interface.Service;
-using AuthenticationInfrastructure.Services;
 using MediatR;
 
 namespace AuthenticationApplication.Creater.Handlers

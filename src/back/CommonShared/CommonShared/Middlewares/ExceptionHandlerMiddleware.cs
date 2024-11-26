@@ -1,12 +1,16 @@
-﻿using AuthenticationDomain.Models;
+﻿using CommonShared.Domains;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System.Net;
+using System.Text.Json;
 
-namespace AuthenticationService.Middlewares
+namespace CommonShared.Middlewares
 {
     public class ExceptionHandlerMiddleware
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<ExceptionHandlerMiddleware> _logger;
+
         public ExceptionHandlerMiddleware(RequestDelegate next, ILogger<ExceptionHandlerMiddleware> logger)
         {
             _next = next;
@@ -19,40 +23,39 @@ namespace AuthenticationService.Middlewares
             {
                 await _next(httpContext);
             }
-            catch (AuthenticationDomain.ValidationException ex)
+            catch (ValidationException ex)
             {
-                await HandleExceptionAsync
-                    (httpContext, ex, ex.StatusCode, ex.Message);
+                await HandleExceptionAsync(httpContext, ex, ex.StatusCode, ex.Message);
             }
             catch (ApplicationException ex)
             {
-                await HandleExceptionAsync
-                    (httpContext, ex, HttpStatusCode.InternalServerError, ex.Message);
+                await HandleExceptionAsync(httpContext, ex, HttpStatusCode.InternalServerError, ex.Message);
             }
             catch (Exception ex)
             {
-                await HandleExceptionAsync
-                    (httpContext, ex, HttpStatusCode.InternalServerError, ex.Message);
+                await HandleExceptionAsync(httpContext, ex, HttpStatusCode.InternalServerError, ex.Message);
             }
         }
-        
 
         private async Task HandleExceptionAsync(HttpContext httpContext, Exception exception, HttpStatusCode statusCode, string message)
         {
             _logger.LogError(message);
-            HttpResponse responce = httpContext.Response;
-            responce.ContentType = "application/json";
-            responce.StatusCode = (int)statusCode;
+            var response = httpContext.Response;
+            response.ContentType = "application/json";
+            response.StatusCode = (int)statusCode;
 
             var errorResponse = new ResponseApi<object>(
                 response: new
-            {
-                StatusCode = (int)statusCode,
-                ErrorStr = message
-            },
-            result: false);
+                {
+                    StatusCode = (int)statusCode,
+                    ErrorStr = message
+                },
+                result: false
+            );
 
-            await responce.WriteAsJsonAsync(errorResponse);
+            var json = JsonSerializer.Serialize(errorResponse);
+            await response.WriteAsync(json);
         }
+
     }
 }

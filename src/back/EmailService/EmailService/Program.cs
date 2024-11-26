@@ -1,7 +1,7 @@
-using EmailApplication;
+using CommonShared.Middlewares;
+using CommonShared.RegistrationServices;
 using EmailInfrastructure.Interface;
 using EmailInfrastructure.Services;
-using EmailService;
 
 public class Program
 {
@@ -16,6 +16,11 @@ public class Program
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+
+        builder.Services.AddControllers(options =>
+        {
+            options.Filters.Add<ResponseFilter>();
+        });
 
         var app = builder.Build();
 

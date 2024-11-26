@@ -1,4 +1,4 @@
-﻿namespace AuthenticationService.Middlewares
+﻿namespace CommonShared.Middlewares
 {
     public class ResponseApi<T>
     {
@@ -12,13 +12,12 @@
         }
 
         public static ResponseApi<string> Fail(string message)
-        { 
-           return new ResponseApi<string>(message, false); 
+        {
+            return new ResponseApi<string>(message, false);
         }
         public static ResponseApi<T> Success(T response)
-        { 
-            return new ResponseApi<T>(response, true); 
+        {
+            return new ResponseApi<T>(response, true);
         }
     }
-
 }

@@ -1,8 +1,6 @@
-﻿using EmailApplication.Requests;
-using EmailInfrastructure.Interface;
+﻿using CommonShared;
+using EmailApplication.Requests;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace EmailService.Controllers
 {
@@ -15,7 +13,8 @@ namespace EmailService.Controllers
         public async Task<IActionResult> Get([FromBody] RegistrationSendConfirmCodeRequest request)
         {
             bool responce = await Mediator.Send(request);
-            return responce == true ? Ok("всё отправилось") : BadRequest("ничего не отправилось") ;
+
+            return Ok(responce);
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using EmailApplication.Requests;
+﻿using CommonShared.Domains;
+using EmailApplication.Requests;
 using EmailInfrastructure.Interface;
 using MediatR;
 

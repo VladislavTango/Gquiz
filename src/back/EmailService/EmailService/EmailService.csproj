@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\CommonShared\CommonShared\CommonShared.csproj" />
     <ProjectReference Include="..\EmailApplication\EmailApplication.csproj" />
     <ProjectReference Include="..\EmailDomain\EmailDomain.csproj" />
     <ProjectReference Include="..\EmailInfrastructure\EmailInfrastructure.csproj" />

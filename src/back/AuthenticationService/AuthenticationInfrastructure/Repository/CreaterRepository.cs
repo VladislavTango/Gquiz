@@ -1,7 +1,6 @@
 ﻿using AuthenticationDomain.Models;
 using AuthenticationInfrastructure.AppContext;
 using AuthenticationInfrastructure.Interface.Repository;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace AuthenticationInfrastructure.Repository

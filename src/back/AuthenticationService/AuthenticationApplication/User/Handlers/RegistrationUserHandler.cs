@@ -2,7 +2,6 @@
 using AuthenticationDomain.Models;
 using AuthenticationInfrastructure.Interface.Repository;
 using AuthenticationInfrastructure.Interface.Service;
-using AuthenticationInfrastructure.Repository;
 using AuthenticationInfrastructure.Services;
 using MediatR;
 

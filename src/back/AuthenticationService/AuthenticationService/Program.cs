@@ -5,9 +5,12 @@ using AuthenticationInfrastructure.Interface.Service;
 using AuthenticationInfrastructure.Repository;
 using AuthenticationInfrastructure.Services;
 using AuthenticationInfrastructure.Services.JWT;
-using AuthenticationService.Middlewares;
+using CommonShared.Middlewares;
+using CommonShared.RegistrationServices;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -29,10 +32,10 @@ builder.Services.AddSingleton<IJwtTokentService, JwtTokenService>();
 builder.Services.AddTransient<IHttpService , HttpService>();
 
 
-builder.Services.AddMediatRServices();
 builder.Services.AddAppContext();
 builder.Services.JwtAuthentication();
 
+builder.Services.AddMediatRServices();
 
 
 var app = builder.Build();

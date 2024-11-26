@@ -55,3 +55,16 @@ C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\obj\Debug\net8.0\Em
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Apache.NMS.dll
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Apache.NMS.ActiveMQ.dll
 C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\CommonShared.dll
+C:\PROJECTS\DiplomProject\src\back\EmailService\EmailService\bin\Debug\net8.0\CommonShared.pdb
