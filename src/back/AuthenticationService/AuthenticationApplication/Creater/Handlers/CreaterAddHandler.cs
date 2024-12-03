@@ -10,15 +10,15 @@ namespace AuthenticationApplication.Creater.Handlers
     {
         private readonly ICreaterRepository _createrRepository;
         private readonly IMailRepository _mailRepository;
-        private readonly IHttpService _httpService;
+        private readonly IRabbit _rabbit;
         public CreaterAddHandler
             (ICreaterRepository createrRepository,
             IMailRepository mailRepository,
-            IHttpService httpService) 
+            IRabbit rabbit) 
         {
             _createrRepository = createrRepository;
             _mailRepository = mailRepository;
-            _httpService = httpService;
+            _rabbit = rabbit;
         }
         public async Task<string> Handle(CreaterAddRequest request, CancellationToken cancellationToken)
         {
@@ -27,7 +27,7 @@ namespace AuthenticationApplication.Creater.Handlers
 
             int Code = await _mailRepository.AddMailCode(request.Email);
 
-            if (!await _httpService.SendEmailCode(request.Email, Code)) 
+            if (!await _rabbit.SendCodeAsync(request.Email, Code)) 
                 throw new ValidationException("Error with MailService", System.Net.HttpStatusCode.BadRequest);
 
 

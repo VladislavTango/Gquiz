@@ -11,12 +11,12 @@ namespace AuthenticationApplication.Creater.Handlers
     {
         private readonly ICreaterRepository _repository;
         private readonly IMailRepository _mailRepository;
-        private readonly IHttpService _httpService;
-        public CreaterLoginHandler(ICreaterRepository createrRepository , IMailRepository mailRepository , IHttpService httpService) 
+        private readonly IRabbit _rabbit;
+        public CreaterLoginHandler(ICreaterRepository createrRepository , IMailRepository mailRepository , IRabbit rabbit) 
         {
             _repository = createrRepository;
             _mailRepository = mailRepository;
-            _httpService = httpService;
+            _rabbit = rabbit;
         }
 
         public async Task<string> Handle(CreaterLoginRequest request, CancellationToken cancellationToken)
@@ -30,7 +30,7 @@ namespace AuthenticationApplication.Creater.Handlers
 
             int Code = await _mailRepository.AddMailCode(request.Email);
 
-            if (! await _httpService.SendEmailCode(request.Email, Code))
+            if (! await _rabbit.SendCodeAsync(request.Email , Code))
                 throw new ValidationException("Error with MailService", System.Net.HttpStatusCode.BadRequest);
 
             return "всё ок";

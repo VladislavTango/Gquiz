@@ -3,8 +3,15 @@
   "WorkspaceRootPath": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zalar\\AppData\\Local\\Temp\\.vsdbgsrc\\e594924809d5daee4140c54274143a6be18592ff56972982030f57744da1e318\\ServiceCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -16,31 +23,7 @@
       "AbsoluteMoniker": "D:0:0:{8AA4322C-8EDA-4734-BF1C-ABD598495425}|..\\CommonShared\\CommonShared\\CommonShared.csproj|c:\\projects\\diplomproject\\src\\back\\commonshared\\commonshared\\middlewares\\responseapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailapplication\\handlers\\registrationsendconfirmcodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|solutionrelative:emailapplication\\handlers\\registrationsendconfirmcodehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8AA4322C-8EDA-4734-BF1C-ABD598495425}|..\\CommonShared\\CommonShared\\CommonShared.csproj|c:\\projects\\diplomproject\\src\\back\\commonshared\\commonshared\\middlewares\\exceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D22AB5A-2A11-4CBE-9988-F37BA19DE804}|EmailService\\EmailService.csproj|solutionrelative:emailservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailapplication\\requests\\registrationsendconfirmcoderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD8E2F48-8A74-496E-A7A1-ADF8A77E897D}|EmailApplication\\EmailApplication.csproj|solutionrelative:emailapplication\\requests\\registrationsendconfirmcoderequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emaildomain\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B848711-5245-44EA-B3B4-627DD5B10117}|EmailDomain\\EmailDomain.csproj|solutionrelative:emaildomain\\models\\emailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailinfrastructure\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|solutionrelative:emailinfrastructure\\interface\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|c:\\projects\\diplomproject\\src\\back\\emailservice\\emailinfrastructure\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AA07C59-97BD-4D0D-B2A8-552FF6A96B8D}|EmailInfrastructure\\EmailInfrastructure.csproj|solutionrelative:emailinfrastructure\\services\\emailsenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AA4322C-8EDA-4734-BF1C-ABD598495425}|..\\CommonShared\\CommonShared\\CommonShared.csproj|c:\\projects\\diplomproject\\src\\back\\commonshared\\commonshared\\registrationservices\\applicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -66,60 +49,50 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Monitor.CoreCLR.cs",
-              "DocumentMoniker": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "ToolTip": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAkwJsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T18:03:19.58Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResponseApi.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
-              "RelativeDocumentMoniker": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
-              "RelativeToolTip": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\zalar\\AppData\\Local\\Temp\\.vsdbgsrc\\e594924809d5daee4140c54274143a6be18592ff56972982030f57744da1e318\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\Temp\\.vsdbgsrc\\e594924809d5daee4140c54274143a6be18592ff56972982030f57744da1e318\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\zalar\\AppData\\Local\\Temp\\.vsdbgsrc\\e594924809d5daee4140c54274143a6be18592ff56972982030f57744da1e318\\ServiceCollectionExtensions.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\Temp\\.vsdbgsrc\\e594924809d5daee4140c54274143a6be18592ff56972982030f57744da1e318\\ServiceCollectionExtensions.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAnwBMAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:45:30.836Z",
+              "WhenOpened": "2024-12-03T16:48:00.698Z",
+              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailSenderService.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Services\\EmailSenderService.cs",
+              "RelativeDocumentMoniker": "EmailService\\Services\\EmailSenderService.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Services\\EmailSenderService.cs",
+              "RelativeToolTip": "EmailService\\Services\\EmailSenderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T16:47:27.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
+              "RelativeDocumentMoniker": "EmailService\\Program.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
+              "RelativeToolTip": "EmailService\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:12:09.541Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RegistrationSendConfirmCodeHandler.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\Handlers\\RegistrationSendConfirmCodeHandler.cs",
-              "RelativeDocumentMoniker": "EmailApplication\\Handlers\\RegistrationSendConfirmCodeHandler.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\Handlers\\RegistrationSendConfirmCodeHandler.cs",
-              "RelativeToolTip": "EmailApplication\\Handlers\\RegistrationSendConfirmCodeHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:16:15.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "EmailService\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Controllers\\ValuesController.cs*",
-              "RelativeToolTip": "EmailService\\Controllers\\ValuesController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:11:49.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ResponseFilter.cs",
               "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ResponseFilter.cs",
               "RelativeDocumentMoniker": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseFilter.cs",
@@ -127,12 +100,35 @@
               "RelativeToolTip": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseFilter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:45:32.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:45:32.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ResponseApi.cs",
+              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
+              "RelativeDocumentMoniker": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
+              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
+              "RelativeToolTip": "..\\CommonShared\\CommonShared\\Middlewares\\ResponseApi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T17:45:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Monitor.CoreCLR.cs",
+              "DocumentMoniker": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
+              "ToolTip": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\82934b5fbed85976c81f5f6e928ed82ce02591ea648c41bf3a7c246b2fcd902a\\src\\coreclr\\System.Private.CoreLib\\src\\System\\Threading\\Monitor.CoreCLR.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAkwJsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T18:03:19.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ExceptionHandlerMiddleware.cs",
               "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\Middlewares\\ExceptionHandlerMiddleware.cs",
               "RelativeDocumentMoniker": "..\\CommonShared\\CommonShared\\Middlewares\\ExceptionHandlerMiddleware.cs",
@@ -140,77 +136,11 @@
               "RelativeToolTip": "..\\CommonShared\\CommonShared\\Middlewares\\ExceptionHandlerMiddleware.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:45:43.887Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:45:43.887Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RegistrationSendConfirmCodeRequest.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\Requests\\RegistrationSendConfirmCodeRequest.cs",
-              "RelativeDocumentMoniker": "EmailApplication\\Requests\\RegistrationSendConfirmCodeRequest.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailApplication\\Requests\\RegistrationSendConfirmCodeRequest.cs",
-              "RelativeToolTip": "EmailApplication\\Requests\\RegistrationSendConfirmCodeRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:03:33.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
-              "RelativeDocumentMoniker": "EmailService\\Program.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\Program.cs",
-              "RelativeToolTip": "EmailService\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:12:09.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmailModel.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\EmailModel.cs",
-              "RelativeDocumentMoniker": "EmailDomain\\Models\\EmailModel.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailDomain\\Models\\EmailModel.cs",
-              "RelativeToolTip": "EmailDomain\\Models\\EmailModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:24:39.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Interface\\IEmailService.cs",
-              "RelativeDocumentMoniker": "EmailInfrastructure\\Interface\\IEmailService.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Interface\\IEmailService.cs",
-              "RelativeToolTip": "EmailInfrastructure\\Interface\\IEmailService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T07:04:37.378Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmailSenderService.cs",
-              "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Services\\EmailSenderService.cs",
-              "RelativeDocumentMoniker": "EmailInfrastructure\\Services\\EmailSenderService.cs",
-              "ToolTip": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailInfrastructure\\Services\\EmailSenderService.cs",
-              "RelativeToolTip": "EmailInfrastructure\\Services\\EmailSenderService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T07:10:08.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "ApplicationRegistration.cs",
               "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\CommonShared\\CommonShared\\RegistrationServices\\ApplicationRegistration.cs",
               "RelativeDocumentMoniker": "..\\CommonShared\\CommonShared\\RegistrationServices\\ApplicationRegistration.cs",
@@ -218,12 +148,11 @@
               "RelativeToolTip": "..\\CommonShared\\CommonShared\\RegistrationServices\\ApplicationRegistration.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T17:41:34.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T17:41:34.264Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "TaskAwaiter.cs",
               "DocumentMoniker": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\0967cf1f67435b7509e4b647243e5eb0450725e85f083f3a1c925cf2947e29c6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\TaskAwaiter.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\0967cf1f67435b7509e4b647243e5eb0450725e85f083f3a1c925cf2947e29c6\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\TaskAwaiter.cs",
@@ -235,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "AsyncTaskMethodBuilderT.cs",
               "DocumentMoniker": "C:\\Users\\zalar\\AppData\\Local\\SourceServer\\465b1f097a271b31a479c82ac8c199f3a0014b06adbe29fec713aa753e337cea\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Users\\zalar\\AppData\\Local\\SourceServer\\465b1f097a271b31a479c82ac8c199f3a0014b06adbe29fec713aa753e337cea\\src\\libraries\\System.Private.CoreLib\\src\\System\\Runtime\\CompilerServices\\AsyncTaskMethodBuilderT.cs",
@@ -247,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "EmailService.csproj",
               "DocumentMoniker": "C:\\PROJECTS\\DiplomProject\\src\\back\\EmailService\\EmailService\\EmailService.csproj",
               "RelativeDocumentMoniker": "EmailService\\EmailService.csproj",

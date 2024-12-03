@@ -2,6 +2,7 @@ using CommonShared.Middlewares;
 using CommonShared.RegistrationServices;
 using EmailInfrastructure.Interface;
 using EmailInfrastructure.Services;
+using RabbitMQ.Client;
 
 public class Program
 {
@@ -9,10 +10,18 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
 
-        builder.Services.AddMediatRServices();
+        builder.Services.AddSingleton(x => new ConnectionFactory
+        {
+            HostName = "localhost",
+            UserName = "guest",
+            Password = "guest"
+        });
 
-        builder.Services.AddScoped<IEmailService, EmailSenderService>();
-        
+        builder.Services.AddHostedService<Rabbit>();
+
+        builder.Services.AddTransient<IEmailService, EmailSenderService>();
+
+
         builder.Services.AddControllers();
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
